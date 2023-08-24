@@ -14,7 +14,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -30,3 +29,36 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio cache folder
+.vs/
+
+# Visual Studio build folders
+x64/
+Debug/
+Release/
+# Whitelist
+!dep/devel/x64
+
+# OS X temporary files
+.DS_Store
+*.swp
+*.lock
+profile
+
+# Xcode temporary files
+*~.nib
+
+# Xcode user settings
+xcuserdata/
+*.xcuserstate
+!default.pbxuser
+
+# Xcode build files
+DerivedData/
+build/
+Builds/
+
+# Other Xcode files
+*.heap
+*.ipa

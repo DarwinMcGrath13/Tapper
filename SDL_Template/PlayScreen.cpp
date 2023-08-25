@@ -28,8 +28,8 @@ PlayScreen::~PlayScreen() {
    //keeps updating score by frame rate
 void PlayScreen::Update() {
 	mPlayer->Update();	
-	mPlayerScore++;
-	mPlayerScoreboard->Score(mPlayerScore);
+	//mPlayerScore++;
+	//mPlayerScoreboard->Score(mPlayerScore);
 }
 
 void PlayScreen::Render() {
